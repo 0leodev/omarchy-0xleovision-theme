@@ -1,0 +1,129 @@
+@define-color selected-text #fbf1c7;
+@define-color text #a89984;
+@define-color base #1c1b19;
+@define-color border #fbf1c7;
+@define-color foreground #a89984;
+@define-color background #1c1b19;
+
+/* Top-level surface transparent so the Hyprland layer blur shows through */
+window,
+#window {
+    background-color: transparent;
+}
+
+window * {
+    all: unset;
+    color: @text;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+window .normal-icons,
+window .large-icons,
+window .item-image,
+window .symbols {
+    -gtk-icon-size: 0;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+window .box-wrapper {
+    background: alpha(@base, 0.5);
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 0;
+    box-shadow: 0 0 16px alpha(#0e0b08, 0.45);
+    line-height: 1%;
+}
+
+window .search-container {
+    border: none;
+    border-radius: 10px;
+    padding: 6px 8px 6px 6px;
+    margin: -2px;
+    background: transparent;
+    line-height: 25px;
+}
+
+window .input {
+    background: transparent;
+    color: @text;
+    padding: 3px 4px;
+    margin: 0;
+    caret-color: @selected-text;
+}
+
+window .input::placeholder {
+    opacity: 0.4;
+    color: alpha(@text, 0.6);
+}
+
+window .list {
+    margin: -2px;
+    padding: 0px;
+}
+
+window .item-box {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 5px 10px 0;
+    margin: 0;
+    background: transparent;
+    transition: all 20ms ease-in-out;
+    max-height: 0px;
+}
+
+window child:hover .item-box,
+window child:selected .item-box {
+    background: alpha(@selected-text, 0.18);
+    border-color: none;
+}
+
+window .item-text {
+    font-weight: normal;
+    color: @text;
+    padding: 1px 2px;
+}
+
+window .item-subtext {
+    opacity: 0.55;
+    color: alpha(@text, 0.6);
+    padding: 0 2px;
+}
+
+window .preview {
+    padding: 10px;
+}
+
+window .keybinds-wrapper {
+    border-top: 1px solid alpha(@border, 0.3);
+    font-size: 11px;
+    opacity: 0.75;
+    margin: 1px 0 0 0;
+    padding: 2px 4px;
+    color: @foreground;
+    background: transparent;
+    border-radius: 5px;
+}
+
+window .error {
+    background: alpha(@selected-text, 0.15);
+    color: @selected-text;
+    padding: 2px 3px;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px solid alpha(@selected-text, 0.35);
+    box-shadow: inset 0 0 5px alpha(#d4bd99, 0.15);
+}
+
+window scrollbar {
+    opacity: 0;
+    min-width: 0;
+    min-height: 0;
+}
