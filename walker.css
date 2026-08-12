@@ -1,9 +1,16 @@
-@define-color selected-text #fbf1c7;
-@define-color text #a89984;
-@define-color base #1c1b19;
-@define-color border #fbf1c7;
-@define-color foreground #a89984;
-@define-color background #1c1b19;
+/* @define-color selected-text #fbf1c7; */
+/* @define-color text #a89984; */
+/* @define-color base #1c1b19; */
+/* @define-color border #fbf1c7; */
+/* @define-color foreground #a89984; */
+/* @define-color background #1c1b19; */
+
+@define-color selected-text #89b4fa;
+@define-color text #cdd6f4;
+@define-color base #1e1e2e;
+@define-color border #cdd6f4;
+@define-color foreground #cdd6f4;
+@define-color background #1e1e2e;
 
 /* Top-level surface transparent so the Hyprland layer blur shows through */
 window,
