@@ -77,17 +77,15 @@ window .list {
 }
 
 window .item-box {
-    border-radius: 10px;
     padding: 7px 10px;
     margin: 0;
     background: transparent;
     max-height: 0px;
 }
 
-window child:hover .item-box,
-window child:selected .item-box {
+window child:selected {
     background: alpha(@selected-text, 0.18);
-    border-color: none;
+    border-radius: 15px;
 }
 
 window .item-text {
