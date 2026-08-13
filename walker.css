@@ -35,7 +35,7 @@ window .symbols {
     min-height: 0;
     padding: 5px;
     background: alpha(@base, 0.5);
-    border-radius: 10px;
+    border-radius: 12px;
     margin: 0;
 }
 
@@ -77,15 +77,15 @@ window .list {
 }
 
 window .item-box {
-    padding: 7px 10px;
-    margin: 0;
+    padding: 3px 5px;
     background: transparent;
-    max-height: 0px;
 }
 
 window child:selected {
     background: alpha(@selected-text, 0.18);
     border-radius: 15px;
+    padding: 4px 5px;
+    margin: 3px 0px;
 }
 
 window .item-text {
