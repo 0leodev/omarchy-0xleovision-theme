@@ -29,13 +29,13 @@ window:backdrop #container {
 
 /* Volume / brightness bar: subtle dark track + tan fill */
 progressbar trough {
-    background-color: rgba(44, 41, 37, 0.6);
-    border: 1px solid rgba(212, 189, 153, 0.22);
+    background-color: rgba(54, 51, 47, 0.7);
+    border: none;
     border-radius: 25px;
+    padding: 11px 0px;
 }
 
 progress {
     border-radius: 25px;
+    padding: 11px 0px;
 }
-
-
