@@ -125,10 +125,10 @@ base-size = 12
 # widths accept one CSS-style scalar/list: N, "Y X", "T X B", or "T R B L";
 # individual border-width-top/right/bottom/left keys override the list.
 background       = "#1a1b26"
-background-alpha = 1.0
+background-alpha = 0.5
 text             = "#a9b1d6"
 border           = "hyprland.active-border"
-border-alpha     = 1.0
+border-alpha     = 0
 # border-width     = 2
 
 [tooltip]
@@ -142,12 +142,12 @@ border-alpha     = 1.0
 
 [notifications]
 background       = "#1a1b26"
-background-alpha = 1.0
+background-alpha = 0.5
 text             = "#a9b1d6"
 # Conventionally matches the Hyprland active-window border. Border accepts
 # either a solid color or the full active-border gradient.
 border           = "hyprland.active-border"
-border-alpha     = 1.0
+border-alpha     = 0
 # border-width     = 2
 countdown        = "#7aa2f7"
 
