@@ -69,7 +69,7 @@ hl.layer_rule({ match = { namespace = "omarchy-notifications" }, blur = true, ig
 hl.layer_rule({ match = { namespace = "omarchy-bar" }, blur = true, blur_popups = true, ignore_alpha = 0.3 })
 hl.layer_rule({ match = { namespace = "omarchy-menu" }, blur = true, ignore_alpha = 0.3 })
 hl.layer_rule({ match = { namespace = "omarchy-polkit" }, blur = true, ignore_alpha = 0.3 })
-hl.layer_rule({ match = { namespace = "omarchy-popups" }, blur = true, ignore_alpha = 0.3 })
+hl.layer_rule({ match = { namespace = "^(omarchy-emojis|omarchy-clipboard|omarchy-image-selector|omarchy-keyboard-panel|omarchy-polkit|omarchy-reminders|omarchy-network-qr)$" }, blur = true, ignore_alpha = 0.3 })
 
 hl.layer_rule({ match = { namespace = "omarchy-menu" }, no_anim = false, animation = "fade" })
 
