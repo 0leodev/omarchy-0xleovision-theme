@@ -1,5 +1,5 @@
 > [!CAUTION]
-> Remove the theme's .git file until Omarchy fixes that bug (somehow, the .git file prevents hyprland.lua styles from being applied).
+> Remove the theme's .git file until Omarchy fixes that bug [#12918](https://github.com/omacom/omarchy/issues/12918) (somehow, the .git file prevents hyprland.lua styles from being applied).
 > If it still doesn't look the way it should, back up your `~/.config/hypr/looknfeel.lua`, then revert that file to default or empty it. It may override this config's styling.
 
 ## Preview
