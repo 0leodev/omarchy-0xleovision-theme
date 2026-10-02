@@ -1,3 +1,6 @@
+> [!NOTE]
+> If your setup doesn't match the preview below, back up your `~/.config/hypr/looknfeel.lua`, then turn it back to default or empty the file. It may override this config's styling.
+
 ## Preview
 <img width="1920" height="1080" alt="preview" src="https://github.com/user-attachments/assets/11368c48-d92a-4400-96b0-b0870a4960f9" />
 
