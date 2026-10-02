@@ -175,7 +175,7 @@ selected-border-alpha     = 0.25
 # behind the card. Clipboard and emojis inherit these tokens.
 background                = "#1a1b26"
 background-alpha          = 0.4
-text                      = "#a9b1d6"
+text                      = "#eceff7"
 border                    = "hyprland.active-border-foreground"
 border-alpha              = 0
 scrim                     = "#1a1b26"
