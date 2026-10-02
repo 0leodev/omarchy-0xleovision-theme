@@ -6,7 +6,7 @@
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/98bf0fa0-ab16-4b3a-844c-e20072288d56" />
 
 ## Menu
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e152a395-4288-4997-b617-371649daa05e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/441ac774-e0db-4d01-8226-d535e9233048" />
 
 ## Bg picker
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d72aa9cf-9466-450f-9b0f-8dbcc61e14fc" />
