@@ -9,7 +9,7 @@
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e152a395-4288-4997-b617-371649daa05e" />
 
 ## Bg picker
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0d58f31e-6d5f-4c3f-83a9-a8a6391b1f1f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d72aa9cf-9466-450f-9b0f-8dbcc61e14fc" />
 
 ## Popups
-<img width="717" height="580" alt="image" src="https://github.com/user-attachments/assets/ef1d37b8-49e0-4f1a-89f8-4b6a01061138" />
+<img width="1920" height="603" alt="image" src="https://github.com/user-attachments/assets/a8915c2e-285f-47bb-aabc-7da689e1cab3" />
