@@ -13,3 +13,6 @@
 
 ## Popups
 <img width="1920" height="603" alt="image" src="https://github.com/user-attachments/assets/a8915c2e-285f-47bb-aabc-7da689e1cab3" />
+
+## Updating
+<img width="1920" height="1080" alt="screenshot-2026-10-18_10-10-37" src="https://github.com/user-attachments/assets/762053b0-97f9-426b-9a3a-19fe9b221166" />
