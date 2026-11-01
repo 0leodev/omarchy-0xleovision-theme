@@ -55,7 +55,7 @@ hl.config({
 -- Media/Steam/browsers keep their Omarchy opt-out (opacity 1) so photos, video
 -- and web pages stay solid; this only hits windows still tagged default-opacity.
 -- Registered after Omarchy's own default-opacity rule, so it wins.
-o.window({ tag = "default-opacity" }, { opacity = "1 0.84" })
+o.window({ tag = "default-opacity" }, { opacity = "0.94 0.84" })
 
 -- Blur layer-shell surfaces to match the window glass. These are the quickshell
 -- namespaces Omarchy 4.x actually creates (there is no swayosd/mako/waybar, and
