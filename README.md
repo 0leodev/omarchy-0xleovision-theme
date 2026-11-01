@@ -12,6 +12,9 @@ window {
     backdrop-filter: blur(20px);
 }
 ```
+```bash
+mkdir -p ~/.config/gtk-4.0 && printf 'window {\n    background-color: rgba(40, 40, 40, 0.8);\n    backdrop-filter: blur(20px);\n}\n' > ~/.config/gtk-4.0/gtk.css
+```
 
 # Installation
 ```bash
