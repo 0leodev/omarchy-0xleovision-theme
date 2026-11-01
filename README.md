@@ -13,7 +13,6 @@ mkdir -p ~/.config/gtk-4.0 && printf 'window {\n    background-color: rgba(40, 4
 - And write the next code there:
 ```css
 window {
-    background-color: rgba(40, 40, 40, 0.8);
     backdrop-filter: blur(20px);
 }
 ```
