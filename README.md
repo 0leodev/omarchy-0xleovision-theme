@@ -3,7 +3,7 @@
 > If it still doesn't look the way it should, back up your `~/.config/hypr/looknfeel.lua`, then revert that file to default or empty it. It may override this config's styling.
 
 # [Blur not working in GTK apps in latest version #16507](https://github.com/hyprwm/Hyprland/discussions/16507)
-**Fix:**
+**Fix in single-line command:**
 ```bash
 mkdir -p ~/.config/gtk-4.0 && printf 'window {\n    background-color: rgba(40, 40, 40, 0.8);\n    backdrop-filter: blur(20px);\n}\n' > ~/.config/gtk-4.0/gtk.css
 ```
