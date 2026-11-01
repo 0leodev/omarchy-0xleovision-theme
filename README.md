@@ -7,7 +7,7 @@ Please use Ghostty, Kitty, or Alacritty as the terminal. **Don't use Foot**.
 # [Blur not working in GTK apps in latest version #16507](https://github.com/hyprwm/Hyprland/discussions/16507)
 **Fix in single-line command:**
 ```bash
-mkdir -p ~/.config/gtk-4.0 && printf 'window {\n    background-color: rgba(40, 40, 40, 0.8);\n    backdrop-filter: blur(20px);\n}\n' > ~/.config/gtk-4.0/gtk.css
+mkdir -p ~/.config/gtk-4.0 && printf 'window {\n    backdrop-filter: blur(20px);\n}\n' > ~/.config/gtk-4.0/gtk.css
 ```
 - Create this new file `~/.config/gtk-4.0/gtk.css`
 - And write the next code there:
