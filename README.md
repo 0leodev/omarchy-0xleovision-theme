@@ -5,6 +5,14 @@
 # Blur not working in GTK apps in latest version
 **Fix:**
 
+/*   ~/.config/gtk-4.0/gtk.css   */
+window {
+    background-color: rgba(40, 40, 40, 0.8);
+    backdrop-filter: blur(20px);
+}
+
+https://github.com/hyprwm/Hyprland/discussions/16507
+
 # Installation
 ```bash
 omarchy theme install https://github.com/0leodev/omarchy-0xleovision-theme.git
