@@ -23,13 +23,13 @@ omarchy theme install https://github.com/0leodev/omarchy-0xleovision-theme.git
 ```
 
 # Preview
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/98bf0fa0-ab16-4b3a-844c-e20072288d56" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/11b24fb8-8a26-4612-97d5-6eeac71f3e7c" />
 
 ## Menu
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/441ac774-e0db-4d01-8226-d535e9233048" />
 
 ## Bg picker
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d72aa9cf-9466-450f-9b0f-8dbcc61e14fc" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ef864f40-5ae7-4c6f-9a4d-76523937f6f9" />
 
 ## Popups
 <img width="1920" height="603" alt="image" src="https://github.com/user-attachments/assets/a8915c2e-285f-47bb-aabc-7da689e1cab3" />
