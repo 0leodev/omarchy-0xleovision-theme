@@ -32,7 +32,7 @@ omarchy theme install https://github.com/0leodev/omarchy-0xleovision-theme.git
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ef864f40-5ae7-4c6f-9a4d-76523937f6f9" />
 
 ## Popups
-<img width="1920" height="603" alt="image" src="https://github.com/user-attachments/assets/a8915c2e-285f-47bb-aabc-7da689e1cab3" />
+<img width="1920" height="670" alt="image" src="https://github.com/user-attachments/assets/30884975-e24e-4726-bfca-85f0e5dff99d" />
 
 ## Updating
-<img width="1920" height="1080" alt="screenshot-2026-10-18_10-10-37" src="https://github.com/user-attachments/assets/762053b0-97f9-426b-9a3a-19fe9b221166" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/66d51d8e-168e-481f-8ece-208b775f084f" />
