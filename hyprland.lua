@@ -65,14 +65,21 @@ o.window({ tag = "terminal" }, { opacity = "0.85 0.75" })
 -- A surface only shows the blur if its own background is translucent, which is
 -- `background-alpha` in ~/.config/omarchy/shell.toml: the bar is already at
 -- 0.5; notifications and popups ship at 1.0 and need lowering to show blur.
-hl.layer_rule({ match = { namespace = "omarchy-osd" }, blur = true, ignore_alpha = 0.3 })
-hl.layer_rule({ match = { namespace = "omarchy-notifications" }, blur = true, ignore_alpha = 0.3 })
-hl.layer_rule({ match = { namespace = "omarchy-bar" }, blur = true, blur_popups = true, ignore_alpha = 0.3 })
-hl.layer_rule({ match = { namespace = "omarchy-menu" }, blur = true, ignore_alpha = 0.3 })
-hl.layer_rule({ match = { namespace = "omarchy-polkit" }, blur = true, ignore_alpha = 0.3 })
-hl.layer_rule({ match = { namespace = "^(omarchy-emojis|omarchy-clipboard|omarchy-image-selector|omarchy-keyboard-panel|omarchy-polkit|omarchy-reminders|omarchy-network-qr)$" }, blur = true, ignore_alpha = 0.3 })
+-- hl.layer_rule({ match = { namespace = "omarchy-osd" }, blur = true, ignore_alpha = 0.3 })
+-- hl.layer_rule({ match = { namespace = "omarchy-notifications" }, blur = true, ignore_alpha = 0.3 })
+-- hl.layer_rule({ match = { namespace = "omarchy-bar" }, blur = true, blur_popups = true, ignore_alpha = 0.3 })
+-- hl.layer_rule({ match = { namespace = "omarchy-menu" }, blur = true, ignore_alpha = 0.3 })
+-- hl.layer_rule({ match = { namespace = "omarchy-dock-apps" }, blur = true, ignore_alpha = 0.3 })
+-- ul.layer_rule({ match = { namespace = "omarchy-polkit" }, blur = true, ignore_alpha = 0.3 })
+-- hl.layer_rule({ match = { namespace = "^(omarchy-emojis|omarchy-clipboard|omarchy-image-selector|omarchy-keyboard-panel|omarchy-polkit|omarchy-reminders|omarchy-network-qr)$" }, blur = true, ignore_alpha = 0.3 })
+
+-- Blur every layer-shell surface. A surface only shows blur if its own
+-- background is translucent (see `background-alpha` in
+-- ~/.config/omarchy/shell.toml).
+hl.layer_rule({ match = { namespace = ".*" }, blur = true, blur_popups = true, ignore_alpha = 0.3 })
 
 hl.layer_rule({ match = { namespace = "omarchy-menu" }, no_anim = false, animation = "fade" })
+hl.layer_rule({ match = { namespace = "omarchy-dock-apps" }, no_anim = false, animation = "fade" })
 
 -- Quick animation windows
 -- Credit: END4 (https://github.com/end-4)
