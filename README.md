@@ -28,8 +28,8 @@ omarchy theme install https://github.com/0leodev/omarchy-0xleovision-theme.git
 ## Menu
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/441ac774-e0db-4d01-8226-d535e9233048" />
 
-## Bg picker
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ef864f40-5ae7-4c6f-9a4d-76523937f6f9" />
+## Apps (omarchy-dock-apps)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/379576a6-5a1d-4362-8c98-2656b3f79bac" />
 
 ## Popups
 <img width="1920" height="670" alt="image" src="https://github.com/user-attachments/assets/30884975-e24e-4726-bfca-85f0e5dff99d" />
