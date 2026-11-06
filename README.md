@@ -4,7 +4,7 @@ Please use Ghostty, Kitty, or Alacritty as the terminal. **Don't use Foot**.
 > **Remove the theme's `.git` file to apply all the styles**, this until Omarchy finds a proper security fix of this [Omarchy theming](https://github.com/omacom/omarchy/blob/quattro/docs/theming.md) (Omarchy purposely blocks any *.lua files, terminal configs, and vscode.json files from themes installed when the `.git` file is present, because ".git" tells Omarchy that it's a theme from someone
 who could run and inject malicious code).
 ```bash
-rm -rf ~/.config/omarchy/themes/0xleovision/.git
+rm -rf ~/.config/omarchy/themes/0xleovision/.git && omarchy theme set 0xleovision
 ```
 > If it still doesn't look the way it should, back up your `~/.config/hypr/looknfeel.lua`, then revert that file to default or empty it. It may override this config's styling.
 
