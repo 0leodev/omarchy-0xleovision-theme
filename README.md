@@ -26,7 +26,7 @@ omarchy theme install https://github.com/0leodev/omarchy-0xleovision-theme.git
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/11b24fb8-8a26-4612-97d5-6eeac71f3e7c" />
 
 ## Menu
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/441ac774-e0db-4d01-8226-d535e9233048" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cdaab644-fc6b-4aaa-ab4f-f5d48e3f9ff5" />
 
 ## Apps (omarchy-dock-apps)
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/379576a6-5a1d-4362-8c98-2656b3f79bac" />
