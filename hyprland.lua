@@ -51,16 +51,10 @@ hl.config({
 })
 
 -- --- Glass / consistency ---------------------------------------------------
--- All standard windows glassy + blurred (overrides Omarchy's subtle 0.985/0.96).
--- Media/Steam/browsers keep their Omarchy opt-out (opacity 1) so photos, video
--- and web pages stay solid; this only hits windows still tagged default-opacity.
--- Registered after Omarchy's own default-opacity rule, so it wins.
 o.window({ tag = "default-opacity" }, { opacity = "1 0.85" })
 o.window({ tag = "terminal" }, { opacity = "0.85 0.75" })
 
--- Blur every layer-shell surface. A surface only shows blur if its own
--- background is translucent (see `background-alpha` in
--- ~/.config/omarchy/shell.toml).
+-- Blur every layer-shell surface.
 hl.layer_rule({ match = { namespace = ".*" }, blur = true, blur_popups = true, ignore_alpha = 0.3 })
 
 -- Entry and exit animation
