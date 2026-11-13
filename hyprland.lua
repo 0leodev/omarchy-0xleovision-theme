@@ -52,7 +52,7 @@ hl.config({
 
 -- --- Glass / consistency ---------------------------------------------------
 o.window({ tag = "default-opacity" }, { opacity = "1 0.85" })
-o.window({ tag = "terminal" }, { opacity = "0.85 0.75" })
+o.window({ tag = "terminal" }, { opacity = "0.8 0.7" })
 
 -- Blur every layer-shell surface.
 hl.layer_rule({ match = { namespace = ".*" }, blur = true, blur_popups = true, ignore_alpha = 0.3 })
