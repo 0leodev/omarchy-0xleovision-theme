@@ -58,8 +58,8 @@ o.window({ tag = "terminal" }, { opacity = "0.8 0.7" })
 hl.layer_rule({ match = { namespace = ".*" }, blur = true, blur_popups = true, ignore_alpha = 0.3 })
 
 -- Entry and exit animation
-hl.layer_rule({ match = { namespace = "omarchy-menu" }, no_anim = false, animation = "fade" })
-hl.layer_rule({ match = { namespace = "omarchy-dock-apps" }, no_anim = false, animation = "fade" })
+hl.layer_rule({ match = { namespace = ".*" }, no_anim = false, animation = "slide bottom" })
+hl.layer_rule({ match = { namespace = "omarchy-keyboard-panel" }, no_anim = false, animation = "fade" })
 
 -- Quick animation windows
 -- Credit: END4 (https://github.com/end-4)
