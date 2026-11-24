@@ -77,12 +77,10 @@ window {
 ![Desktop preview](https://github.com/user-attachments/assets/11b24fb8-8a26-4612-97d5-6eeac71f3e7c)
 
 ### Menu
-
-![Menu preview](https://github.com/user-attachments/assets/cdaab644-fc6b-4aaa-ab4f-f5d48e3f9ff5)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/72a5d268-7e13-40c3-944b-a252627cba6e" />
 
 ### Apps (omarchy-dock-apps)
-
-![Dock apps preview](https://github.com/user-attachments/assets/379576a6-5a1d-4362-8c98-2656b3f79bac)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b6552321-0a7a-4469-9f5b-856e83e745d8" />
 
 ### Popups
 
