@@ -60,6 +60,7 @@ hl.layer_rule({ match = { namespace = ".*" }, blur = true, blur_popups = true, i
 -- Entry and exit animation
 hl.layer_rule({ match = { namespace = ".*" }, no_anim = false, animation = "slide bottom" })
 hl.layer_rule({ match = { namespace = "omarchy-keyboard-panel" }, no_anim = false, animation = "fade" })
+hl.layer_rule({ match = { namespace = "omarchy-osd" }, no_anim = false, animation = "fade" })
 
 -- Quick animation windows
 -- Credit: END4 (https://github.com/end-4)
